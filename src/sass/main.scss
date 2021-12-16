@@ -1,0 +1,14 @@
+body {
+    background-color: green;
+}
+
+form {
+
+    input::placeholder {
+        color: blue;
+    }
+
+    input.error {
+        background-color: tomato;
+    }
+}
